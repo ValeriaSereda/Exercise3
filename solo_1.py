@@ -57,3 +57,15 @@ studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny
 studenci_sort = sorted(studenci, key=lambda x: x.split()[1])
 for student in studenci_sort:
     print(student)
+
+# zadanie 1.9
+
+# policz wszystkich studentow z tablicy, ktorych nazwisko zaczyna sie na N
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+liczba_n = 0
+for i in studenci:
+    nazw = i.split()[1]
+    if nazw.startswith('N'):
+        liczba_n = liczba_n + 1
+
+print('Liczba studentow na N wynosi:' + str(liczba_n))
