@@ -54,11 +54,6 @@ for student in studenci_sort:
 
 studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
 
-# oczekiwany rezultat:
-# Barbara Kowalska
-# Jan Niezbedny
-# Tomasz Nijaki
-# Anna Szczesny
 studenci_sort = sorted(studenci, key=lambda x: x.split()[1])
 for student in studenci_sort:
     print(student)
