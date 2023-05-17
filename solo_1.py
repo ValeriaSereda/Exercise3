@@ -19,3 +19,10 @@ studenci = ["Ania", "Kuba", "Piotr", "Jan"]
 
 liczba_studentow = len(studenci)
 print('Liczba studentow wynosi:' + str(liczba_studentow))
+
+# zadanie 1.4
+
+studenci = ["Ania", "Kasia", "Piotr", "Tomek"]
+
+for i in studenci:
+    print('Hello'" " + i)
