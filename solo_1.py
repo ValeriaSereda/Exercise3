@@ -12,3 +12,10 @@ print ('Wpisz swoje imie:')
 student = input()
 
 print ('Hello' " " + student)
+
+# zadanie 1.3
+
+studenci = ["Ania", "Kuba", "Piotr", "Jan"]
+
+liczba_studentow = len(studenci)
+print('Liczba studentow wynosi:' + str(liczba_studentow))
