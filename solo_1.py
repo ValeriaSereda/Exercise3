@@ -42,3 +42,23 @@ ciag_znakow = "edbw(hdakqas(skqskahb))adwndwb(wgwidn()dsqwhjdw)"
 liczba_nawiasow_otwierajacych = ciag_znakow.count('(')
 
 print("Liczba nawiasow otwierajacych wynosi: " + str(liczba_nawiasow_otwierajacych))
+
+# zadanie 1.7
+
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+studenci_sort = sorted(studenci, key=lambda x: x.split()[0])
+for student in studenci_sort:
+    print(student)
+
+# zadanie 1.8
+
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+
+# oczekiwany rezultat:
+# Barbara Kowalska
+# Jan Niezbedny
+# Tomasz Nijaki
+# Anna Szczesny
+studenci_sort = sorted(studenci, key=lambda x: x.split()[1])
+for student in studenci_sort:
+    print(student)
