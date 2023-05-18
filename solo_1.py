@@ -39,7 +39,7 @@ print("Liczba nawiasow otwierajacych wynosi: " + str(liczba_nawiasow_otwierajacy
 
 # zadanie 1.7
 
-# posortuj alfabetycznie (od imienia) studentow
+
 studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
 studenci_sort = sorted(studenci, key=lambda x: x.split()[0])
 for student in studenci_sort:
@@ -47,7 +47,7 @@ for student in studenci_sort:
 
 # zadanie 1.8
 
-# posortuj alfabetycznie (od imienia) studentow
+
 studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
 studenci_sort = sorted(studenci, key=lambda x: x.split()[1])
 for student in studenci_sort:
